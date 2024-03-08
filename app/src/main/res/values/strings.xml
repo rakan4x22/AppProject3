@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppProject</string>
+    <string-array name="choose">
+        <item>بريده</item>
+        <item>عنيزه</item>
+        <item> الرس</item>
+        <item>البدائع</item>
+        <item> رياض الخبراء </item>
+
+
+    </string-array>
+</resources>
