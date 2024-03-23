@@ -28,8 +28,12 @@
             android:name=".App3"
             android:exported="true" />
         <activity
+            android:name=".App7"
+            android:exported="true" />
+        <activity
             android:name=".AlarmReceiver"
             android:exported="true" />
+
         <activity
             android:name=".App2"
             android:exported="true" />
