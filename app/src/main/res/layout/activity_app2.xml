@@ -9,6 +9,17 @@
 
     >
 
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/Sy1"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="21dp"
+        android:hint="أكتب أسم المدينة" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="100dp"
@@ -22,13 +33,13 @@
 
         android:textStyle="bold" />
 
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-
         android:layout_marginEnd="23dp"
         android:layout_marginBottom="287dp"
         android:text="الظهر"
@@ -71,9 +82,6 @@
         android:text="العشاء"
         android:textSize="35dp"
         android:textStyle="bold" />
-
-
-
 
 
     <TextView
@@ -147,6 +155,17 @@
         android:layout_height="81dp"
         android:layout_marginTop="510dp"
         android:text="الرجوع الى اختيار المنطقه" />
+
+    <Button
+        android:id="@+id/se12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Sy1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="82dp"
+        android:text="Search" />
 
 
 </RelativeLayout>
