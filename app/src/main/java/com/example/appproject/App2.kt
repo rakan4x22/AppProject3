@@ -62,6 +62,11 @@ class App2 : AppCompatActivity() {
             val intent = Intent(this, App3::class.java)
             startActivity(intent)
         }
+        val goToApp7Button = findViewById<Button>(R.id.bi1)
+        goToApp7Button.setOnClickListener {
+            val intent = Intent(this, App7::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun LoadPrayerTime() {

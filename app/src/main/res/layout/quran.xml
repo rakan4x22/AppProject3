@@ -82,12 +82,11 @@
         android:id="@+id/play_btn"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="56dp"
         android:layout_marginBottom="52dp"
-        android:background="@drawable/img_4"
+        android:background="@drawable/img_6"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/forward_btn"
-        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toEndOf="@+id/pause_btn" />
 
     <SeekBar
